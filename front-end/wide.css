@@ -1,0 +1,122 @@
+@import url(<link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>);
+.img1{
+    width:280px;
+    height:280px;
+    border-radius:50%;
+    box-shadow: 6px 6px 5px #cec9c1d5;
+}
+.img2{
+    width:280px;
+    height:280px;
+    border-radius:50%;
+
+}
+.container4{
+    text-align: left;
+    background-color:#f3f0ecd5;
+    font-size:17.5px;
+    color:#4a4545;
+    border: 30px solid #f3f0ecd5;
+    font-weight:bold;
+    border-radius:5px;
+    width:500px;
+}
+
+.container5{
+    text-align: left;
+    background-color:#f3f0ecd5;
+    font-size:17.5px;
+    color:#4a4545;
+    border: 30px solid #f3f0ecd5;
+    font-weight:bold;
+    border-radius:5px;
+    width:560px;
+}
+
+.container3{
+    text-align: left;
+    background-color:#e8e3dad5;
+    font-size:17.5px;
+    color:#4a4545;
+    border: 15px #e8e3dad5;
+    font-weight:bold;
+    border-radius:5px 5px 0 0;
+    width:529px;
+}
+.img2:hover{
+    box-shadow: 6px 6px 5px #cec9c1d5;
+}
+body{
+    background-image: url("pics/dp.jpg");
+    font-family:'barlow';
+}
+
+a{
+    color:#eae5ddd5;
+    text-decoration: none;
+  }
+.button1{
+    background-color:#4a4545;
+    color:#f3f0ecd5;
+    border: none;
+    height:44px;
+    width:100px;
+    border-radius: 2px;
+    /* text-align: center; */
+    text-decoration: none;
+    font-size: 17px;    
+    
+}
+
+.button2{
+    background-color:#4a4545;
+    color:#f3f0ecd5;
+    border: none;
+    height:50px;
+    width:100px;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;    
+    
+}
+
+.button1:hover{
+    box-shadow: 6px 6px 5px #cbc6bdd5;
+}
+
+.container1{
+    background-color:#e8e3dad5;
+    color:white;
+    width:700px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 5px #dfd8cbd5;
+}
+p1{
+    
+    font-size:24px;
+}
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+
+  @media screen {
+    
+  }
