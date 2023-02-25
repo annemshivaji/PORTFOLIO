@@ -156,13 +156,13 @@ p1{
 
 /* Style the front side (fallback if image is missing) */
 .flip-box-front {
-  background-color: #bbb;
-  color: black;
+  background-color: transparent
+  color: transparent;
 }
 
 /* Style the back side */
 .flip-box-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: transparent;
+  color: transparent;
   transform: rotateY(180deg);
 }
